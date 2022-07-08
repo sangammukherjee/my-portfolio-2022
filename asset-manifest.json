@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-2022/static/css/main.f756d570.css",
+    "main.js": "/my-portfolio-2022/static/js/main.1215f407.js",
+    "static/js/937.6bdc071b.chunk.js": "/my-portfolio-2022/static/js/937.6bdc071b.chunk.js",
+    "static/media/Sangam_Mukherjee_Resume_2022.pdf": "/my-portfolio-2022/static/media/Sangam_Mukherjee_Resume_2022.60a9a053d9a3280a90d2.pdf",
+    "index.html": "/my-portfolio-2022/index.html",
+    "main.f756d570.css.map": "/my-portfolio-2022/static/css/main.f756d570.css.map",
+    "main.1215f407.js.map": "/my-portfolio-2022/static/js/main.1215f407.js.map",
+    "937.6bdc071b.chunk.js.map": "/my-portfolio-2022/static/js/937.6bdc071b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f756d570.css",
+    "static/js/main.1215f407.js"
+  ]
+}
