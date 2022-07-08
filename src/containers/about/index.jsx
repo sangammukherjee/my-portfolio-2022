@@ -31,17 +31,12 @@ const About = () => {
           >
             <h3 className="developerContent">Front end developer</h3>
             <p>
-              Seasoned and independent Front End Developer with 5 years of
-              experience in blending the art of design with skill of programming
-              to deliver an immersive and engaging user experience through
-              efficient website development, proactive feature optimization, and
-              relentless debugging. Very passionate about aesthetics and UI
-              design. It is imperative that you provide a thorough and
-              professional approach to your resume. As a Front End Developer
-              you'll be judged by your ability to use UX and UI concepts and
-              follow design guidelines. It's about expressing your attention to
-              detail and how you can help implement design ideas for your future
-              employer.
+              Senior front-end developer with 4.5 years of experience designing
+              and building responsive web design and mobile apps in the
+              financial industry. Proficient with CSS and JS Frameworks, with
+              extensive knowledge of UX and user psychology. Notable
+              achievements include boosting the conversion rate of an existing
+              website by 80% with improved code and design.
             </p>
           </Animate>
           <Animate

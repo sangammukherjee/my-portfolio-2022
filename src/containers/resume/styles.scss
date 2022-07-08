@@ -81,9 +81,18 @@
           margin-left: 8px;
         }
       }
+      .vertical-timeline-element-stream-wrapper{
+        margin: 10px 0px 0px 0px;
+        font-size: 18px;
+        color: var(--selected-theme-sub-text-color);
+      }
       .vertical-timeline-element-description-wrapper {
         font-size: 18px;
         color: var(--selected-theme-sub-text-color);
+        margin-top: 20px;
+        li{
+          padding-bottom: 10px;
+        }
       }
     }
   }

@@ -1,9 +1,17 @@
 import React from "react";
 import { Animate } from "react-simple-animate";
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import "./styles.scss";
+import MyPdf from '../../resume/Sangam_Mukherjee_Resume_2022.pdf';
 
 const Home = () => {
+  function handleNavigateLinkedin() {
+    window.open(
+      "https://www.linkedin.com/in/sangam-mukherjee-400488134/",
+      "_blank"
+    );
+  }
+
   return (
     <section className="home" id="home">
       <div className="home__text-wrapper">
@@ -26,13 +34,10 @@ const Home = () => {
       >
         <div className="contact-me">
           <div className="contact-me__buttons-wrapper">
-            <a>Download resume</a>
+            <a href={MyPdf} download="Sangam_Mukherjee.pdf">Download resume</a>
           </div>
           <div className="contact-me__socials-wrapper">
-            <FaLinkedin size={32} />
-            <FaFacebook size={32} />
-            <FaTwitter size={32} />
-            <FaInstagram size={32} />
+            <FaLinkedin onClick={handleNavigateLinkedin} size={32} />
           </div>
         </div>
       </Animate>

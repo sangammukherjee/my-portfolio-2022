@@ -14,13 +14,5 @@ export const navMenus = [
   {
     label: "RESUME",
     to: "/resume",
-  },
-  {
-    label: "PORTFOLIO",
-    to: "/portfolio",
-  },
-  {
-    label: "CONTACT",
-    to: "/contact",
-  },
+  }
 ];

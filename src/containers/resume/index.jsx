@@ -8,7 +8,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { data } from "./utils";
-import './styles.scss';
+import "./styles.scss";
 
 const Resume = () => {
   return (
@@ -33,7 +33,7 @@ const Resume = () => {
                   color: "var(--selected-theme-main-color)",
                   border: "1.5px solid var(--selected-theme-main-color)",
                 }}
-                date="2020 - present"
+                date={item.timeLine}
                 iconStyle={{
                   background: "#181818",
                   color: "var(--selected-theme-main-color)",
@@ -41,14 +41,14 @@ const Resume = () => {
                 icon={<MdWork />}
               >
                 <div className="vertical-timeline-element-title-wrapper">
-                  <h3>
-                    {item.title}
-                  </h3>
-                  <h4>
-                    {item.subTitle}
-                  </h4>
+                  <h3>{item.title}</h3>
+                  <h4>{item.subTitle}</h4>
                 </div>
-                <p  className="vertical-timeline-element-description-wrapper">{item.description}</p>
+                <ul className="vertical-timeline-element-description-wrapper">
+                  {item.description.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
@@ -68,7 +68,7 @@ const Resume = () => {
                   color: "var(--selected-theme-main-color)",
                   border: "1.5px solid var(--selected-theme-main-color)",
                 }}
-                date="2020 - present"
+                date="2013 - 2017"
                 iconStyle={{
                   background: "#181818",
                   color: "var(--selected-theme-main-color)",
@@ -76,14 +76,13 @@ const Resume = () => {
                 icon={<MdWork />}
               >
                 <div className="vertical-timeline-element-title-wrapper">
-                  <h3>
-                    {item.title}
-                  </h3>
-                  <h4>
-                    {item.subTitle}
-                  </h4>
+                  <h3>{item.title}</h3>
+                  <h4>{item.subTitle}</h4>
                 </div>
-                <p className="vertical-timeline-element-description-wrapper">{item.description}</p>
+                <p className="vertical-timeline-element-stream-wrapper">{item.stream}</p>
+                <p className="vertical-timeline-element-description-wrapper">
+                  {item.description}
+                </p>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
